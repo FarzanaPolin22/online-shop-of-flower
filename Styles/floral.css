@@ -1,0 +1,30 @@
+* {
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 240px 0 240px;
+}
+
+.banner-image {
+    width: 300px;
+
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 40px;
+    margin-top: 20px;
+    
+
+}
+
+.banner-title{
+    margin-bottom: 20px;
+}
