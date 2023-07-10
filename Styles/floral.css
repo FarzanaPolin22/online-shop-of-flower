@@ -28,3 +28,15 @@
 .banner-title{
     margin-bottom: 20px;
 }
+
+.sale-sign{
+    color: #E55473;
+}
+
+.sale{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 240px 0 240px;
+}
