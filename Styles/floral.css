@@ -22,12 +22,10 @@
     padding: 20px 40px;
     margin-top: 20px;
     
-
 }
 
 .banner-title{
-    margin-bottom: 20px;
-}
+    margin-bottom: 20}
 
 .sale-sign{
     color: #E55473;
@@ -39,4 +37,123 @@
     align-items: center;
     justify-content: space-around;
     padding: 50px 240px 0 240px;
+}
+
+.insta-content{
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+
+
+.insta-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+}
+
+.insta-photo-pink{
+    margin:48px 240px 125px;
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    gap: 24px;
+}
+
+.gmail-history{
+    height: 400px;
+    width: 70%;
+    text-align: center;
+    border-radius: 8px;
+    background-image: url('../Styles/Rectangle\ 9.png');
+   
+}
+
+.email-bar{
+    display: flex;
+    text-align: center;
+    margin: auto; 
+
+}
+
+.enter-email{
+    text-align: center;
+    justify-content: space-around;
+    width: 700px;
+    height: 64px;
+}
+
+.insta-photo{
+    justify-content: space-around;
+}
+.feature-section{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    text-align: center;
+    margin-top: 60px; ;
+}
+
+.feature-content-1{
+    width: 400px;
+    height: 500px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding-top: 72px;
+}
+.feature-content-2{
+    width: 400px;
+    height: 500px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);  
+    padding-top: 72px;
+}
+.feature-content-3{
+    width: 400px;
+    height: 500px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding-top: 30px;
+}
+
+.content-title{
+    text-decoration: underline;
+}
+
+.feature-head{
+    text-align:center ;
+    margin-top: 60px; 
+
+}
+
+.footer{
+    background-color: black;
+    color: #FFFFFF;
+    font-family: Lato;
+    text-align: center;
+    height: 450px; ;
+}
+.footer-head{
+    display: contents;
+    text-align: center;
+    padding-bottom:110px ;
+    padding-top: 110px;
+    margin-bottom: 200px; 
+}
+
+.footer-description{
+    display: flex;
+width: 625px;
+flex-direction: column;
+flex-shrink: 0;
+color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.footer-sign{
+    color:  #E55473
 }
