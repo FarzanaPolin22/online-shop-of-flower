@@ -1,6 +1,7 @@
 * {
     margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 
 .banner {
@@ -37,7 +38,10 @@
     align-items: center;
     justify-content: space-around;
     padding: 50px 240px 0 240px;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
 }
+
 
 .insta-content{
     text-align: center;
@@ -63,9 +67,12 @@
 .gmail-history{
     height: 400px;
     width: 70%;
+    padding-top: 150px;
+    padding-bottom: 0;
     text-align: center;
+    background-repeat: no-repeat;
     border-radius: 8px;
-    background-image: url('../Styles/Rectangle\ 9.png');
+    background-image: url('../Styles/Rectangle\ 9.png')
    
 }
 
@@ -81,6 +88,19 @@
     justify-content: space-around;
     width: 700px;
     height: 64px;
+}
+
+.email-content{
+    padding-bottom:50px ;
+}
+
+.gmail-title{
+    margin-bottom:30px ;
+
+}
+
+.gmail-description{
+    margin-bottom: 23px;
 }
 
 .insta-photo{
@@ -99,21 +119,21 @@
     height: 500px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    padding-top: 72px;
+    padding-top: 50px;
 }
 .feature-content-2{
     width: 400px;
     height: 500px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);  
-    padding-top: 72px;
+    padding-top: 50px;
 }
 .feature-content-3{
     width: 400px;
     height: 500px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .content-title{
@@ -131,7 +151,9 @@
     color: #FFFFFF;
     font-family: Lato;
     text-align: center;
-    height: 450px; ;
+    height: 250px;
+    padding-top: 75px;
+    padding-bottom: 0;
 }
 .footer-head{
     display: contents;
@@ -142,7 +164,7 @@
 }
 
 .footer-description{
-    display: flex;
+display:block;
 width: 625px;
 flex-direction: column;
 flex-shrink: 0;
@@ -153,6 +175,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
+vertical-align: text-bottom;
 }
 .footer-sign{
     color:  #E55473
